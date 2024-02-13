@@ -5,5 +5,7 @@ The [Get Properties repository](https://github.com/SigmanGroup/Get_Properties/tr
 The folder is organized as follows:
 
 `get_acid_properties_example/` contains scripts for obtaining descriptors included in the library from carboxylic acid Gaussian 16 calculations. Includes an additional function to extract buried volume divided into hemispheres.
+
 `get_primary_amine_properties_example/` contains scripts for obtaining descriptors included in the library from primary amine Gaussian 16 calculations. Includes an additional function to extract lone pair energy and occupancy.
+
 `get_secondary_amine_properties_example` contains scripts for obtaining descriptors included in the library from secondary amine Gaussian 16 calculations. Includes an additional function to extract lone pair energy and occupancy.
