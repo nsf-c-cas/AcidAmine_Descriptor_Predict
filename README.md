@@ -8,4 +8,4 @@ The folder is organized as follows:
 
 Each folder has a respective README.md which further documentation on utilising the code present within this repository.
 
-Additional material related to this work can be found at [Figshare](https://doi.org/10.6084/m9.figshare.25213742.v1) containing trained 2D & 3D models, datasets for training, results for test/external validation sets. 
+Additional material related to this work can be found at [Figshare](https://doi.org/10.6084/m9.figshare.25213742.v2) containing trained 2D & 3D models, datasets for training, results for test/external validation sets. 
