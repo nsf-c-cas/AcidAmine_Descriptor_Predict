@@ -8,7 +8,7 @@ The folder is organized as follows:
 `models/` contains the implementation of GINE, a state-of-the-art graph neural network that strikes a good balance between speed and accuracy. You also should not have to modify these files.
 `predictions.ipynb` is a notebook that demonstrates how to predict acid/amine descriptors from SMILES strings.
 
-Additional material on `trained_models`, `data` for training, `test predictions` can be obtianed in the following [Figshare](https://doi.org/10.6084/m9.figshare.25213742.v2).
+Additional material on `trained_models`, `data` for training, `test predictions` can be obtianed in the following [Figshare](https://doi.org/10.6084/m9.figshare.25213742.v3).
 
 ## Setting up conda environment
 
@@ -48,7 +48,7 @@ The versions can *really* matter when installing `pytorch` and `torch-geometric`
 
 To utilise the developed using `example_prediciton.ipynb` please preform the following steps
 
-1. Download the trained models (2D/trained_models) from [Figshare](https://doi.org/10.6084/m9.figshare.25213742.v2)
+1. Download the trained models (2D/trained_models) from [Figshare](https://doi.org/10.6084/m9.figshare.25213742.v3)
 2. Stored the downloaded folder in the same folder as `example_prediciton.ipynb`.
 3. Excecute the the necessary cells in the jupyter notebook for prediction of acid/amine properties.
 
@@ -56,8 +56,8 @@ To utilise the developed using `example_prediciton.ipynb` please preform the fol
 
 To run re-training please perform the following steps
 
-1. Download the dataset for training models (2D/data) from [Figshare](https://doi.org/10.6084/m9.figshare.25213742.v2)
-1. Download the trained models (2D/trained_models) from [Figshare](https://doi.org/10.6084/m9.figshare.25213742.v2) if you would like to start from pre-trained models
+1. Download the dataset for training models (2D/data) from [Figshare](https://doi.org/10.6084/m9.figshare.25213742.v3)
+1. Download the trained models (2D/trained_models) from [Figshare](https://doi.org/10.6084/m9.figshare.25213742.v3) if you would like to start from pre-trained models
 3. Each surrogate descriptor prediction model can be (re)trained by calling `train.py` like so:
 
 `python train.py OUT_DIR JOB_NAME DATAFRAME_PATH PROP_TYPE KEEP_HYDROGENS MODEL_TYPE PATH_TO_PRETRAINED_MODEL BATCH_SIZE LEARNING_RATE SEED LOSS_TYPE`
