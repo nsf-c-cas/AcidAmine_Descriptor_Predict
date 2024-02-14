@@ -5,7 +5,7 @@ This repository contains the necessary code to:
 2. Train or retrain DimeNet++ models on the acid or amine desciptors reported in our manuscript.
 2. Test or retest DimeNet++ models on the acid or amine desciptors reported in our manuscript.
 
-Before training or evaluating the models reported in the paper, the following directories need to be downloaded from the FigShare and added to this directory under `data/`, `trained_models/`, and `external_validation_data/`:
+Before training or evaluating the models reported in the paper, the following directories need to be downloaded from the [Figshare](https://doi.org/10.6084/m9.figshare.25213742.v3) and added to this directory under `data/`, `trained_models/`, and `external_validation_data/`:
 
 - `3D/data/`
 
